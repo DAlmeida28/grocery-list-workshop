@@ -1,10 +1,108 @@
 <html>
   <head>
     <title>Grocery list.</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <style>
+      h2{
+        background-color: gray;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>My Grocery List. </h1>
-    
+    <h1 style="color:aqua">My Grocery List. </h1>
+
+    <article>
+      <h2>Fruits</h2>
+        <section class="fruit">
+          <h3>Canned</h3>
+            <ul>
+              <li>Canned Peaches</li>
+              <li>Canned Apples</li>            
+              <li>Mixed Fruits</li>
+            </ul>
+        </section>
+
+        <img class="img" src="./images/mango.jpeg" alt="mango cut in half"/>
+
+        <section class="fruit">
+          <h3>Fresh</h3>
+            <ol>
+              <li>Pineaples</li>
+              <li>Mango</li>
+              <li>Oranges</li>
+            </ol>
+        </section>
+    </article>
+
+    <article>
+      <h2 id="vegetable">Vegetables</h2>
+        <section class="vegetables">
+          <h3>Canned</h3>
+            <ul>
+              <li>Carrots</li>
+              <li>Peas</li>
+              <li>Broccoli</li>
+            </ul>      
+        </section>
+        
+        <img class="img" src="./images/broccoli.webp" alt="steamed broccol" />
+
+        <section class="vegetables">
+          <h3>Fresh</h3>
+            <ol>
+              <li>Celery</li>
+              <li>Potatoes</li>
+              <li>Cabbage</li>
+            </ol>
+        </section>
+    </article>
+
+    <article>
+      <h2>Pantry</h2>
+        <section class="pantry">
+          <h3>Canned</h3>
+            <ul>
+              <li>Bread</li>
+              <li>Beans</li>
+              <li>Rice</li>
+            </ul>
+       </section>
+
+       <img class="img" src="./images/bread.webp" alt="french bread" />
+
+        <section class="pantry">
+         <h3>Fresh</h3>
+          <ol>
+            <li>Tomatoes</li>
+            <li>Granola</li>
+            <li>Breakfast Bars</li>
+          </ol>
+        </section>
+    </article>
+
+    <article>
+      <h2>Snacks</h2>
+      <section class="snacks">
+        <h3>Frozen</h3>
+          <ul>
+            <li>Ice cream</li>
+            <li>More Ice cream</li>
+            <li>Maybe some more Ice cream</li>
+          </ul>
+      </section>
+
+      <img class="img" src="./images/gummyworms.webp" alt="pile of sour gummy worms" />
+
+      <section class="snacks">
+        <h3>Candy</h3>
+          <ol>
+            <li>Gummy Worms</li>
+            <li>Gummy Bears</li>
+            <li>Reeses</li>
+          </ol>
+      </section>
+    </article>
+
   </body>
 </html>
